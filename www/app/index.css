@@ -58,3 +58,26 @@ footer a {
 }
 
 .mdl-layout__content { overflow: hidden; }
+
+.center-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+
+  max-width: 90%;
+  max-height: 90%;
+  width: 100%;
+  height: auto;
+
+  text-align: center;
+  vertical-align: center;
+}
+
+
+.page-content .mdl-textfield { width: 90%; }
+
+.page-content .mdl-textfield__label { font-size: 3vmin; }
+.page-content .mdl-textfield__input { font-size: 5vmin; }
+
+// .page-content button { clear: both; }
