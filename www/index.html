@@ -26,6 +26,7 @@
         <span class="mdl-layout-title">Say It</span>
 
         <form id="options" action="#">
+          <p>Type some text and have your phone speak it aloud.</p>
         </form>
 
         <footer>
@@ -36,12 +37,27 @@
             </a>
           </nav>
 
-          Idea by PLACEHOLDER<br />
+          Idea by Adam Lamport <br />
+          &amp; Matthew Garland.<br />
           App by <a href="http://metaist.com">Metaist LLC</a>
         </footer>
 
       </div>
       <main class="mdl-layout__content page-content">
+        <form action="#" class="center-center">
+          <div class="mdl-textfield mdl-js-textfield
+            mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="msg">
+            <label class="mdl-textfield__label" for="msg">Say...</label>
+          </div>
+          <div>
+            <button id="btn-play" type="submit" class="mdl-button mdl-js-button
+              mdl-button--raised mdl-button--accent mdl-js-ripple-effect">
+              <i class="material-icons">volume_up</i>
+              Say it!
+            </button>
+          </div>
+        </form>
       </main>
     </div>
 
